@@ -1,0 +1,76 @@
+/* RESET */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Rubik", sans-serif;
+  --menu-color: #4a4a4a;
+  --main-textcolor: #ffffff;
+  --font-sizetitle: 30px;
+}
+
+.logoadalab {
+  margin-top: 10px;
+  width: 155px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.menuheader {
+  box-sizing: content-box;
+  display: flex;
+  align-content: space-around;
+  margin-top: 10px;
+  width: 100%;
+  align-items: baseline;
+  justify-content: space-around;
+  font-family: var(--font-family);
+}
+
+.boxheader1 {
+  height: 13px;
+  font-size: 16px;
+  margin-right: 10px;
+  text-align: center;
+}
+.boxheader2 {
+  height: 13px;
+  font-size: 16px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.enlace {
+  text-decoration: none;
+  color: var(--menu-color);
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #3cdbc0;
+  color: var(--main-textcolor);
+  text-align: center;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--font-sizetitle);
+  font-weight: 800;
+}
