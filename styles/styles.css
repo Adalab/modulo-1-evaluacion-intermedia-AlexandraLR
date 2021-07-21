@@ -4,10 +4,10 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 :root {
-  --font-family: "Rubik", sans-serif;
   --menu-color: #4a4a4a;
   --main-textcolor: #ffffff;
   --font-sizetitle: 30px;
@@ -37,7 +37,6 @@ header {
   width: 100%;
   align-items: baseline;
   justify-content: space-around;
-  font-family: var(--font-family);
   text-transform: uppercase;
 }
 
@@ -64,7 +63,6 @@ header {
 }
 
 body {
-  font-family: var(--font-family);
   background-color: #3cdbc0;
   color: var(--main-textcolor);
   text-align: center;
@@ -86,18 +84,21 @@ body {
 /*tablet y desktop*/
 @media screen and (min-width: 768px) {
     
-    header {
+header {
     flex-direction: row;
     justify-content: space-between;
-  }
-  .logoadalab {
-      margin-left:30px;
-      margin-top: 20px;
-      margin-bottom:20px;
-  }
-  .boxheader2{
-      margin-right: 30px;
-  }
-  .main {
-      font-size: 40px; 
-  }
+}
+
+.logoadalab {
+    margin-left:30px;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.boxheader2{
+    margin-right: 30px;
+}
+
+.title {
+    font-size: 40px; 
+}
