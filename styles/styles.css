@@ -83,22 +83,22 @@ body {
 
 /*tablet y desktop*/
 @media screen and (min-width: 768px) {
-    
-header {
+  header {
     flex-direction: row;
     justify-content: space-between;
-}
+  }
 
-.logoadalab {
-    margin-left:30px;
+  .logoadalab {
+    margin-left: 30px;
     margin-top: 20px;
-    margin-bottom:20px;
-}
+    margin-bottom: 20px;
+  }
 
-.boxheader2{
+  .boxheader2 {
     margin-right: 30px;
-}
+  }
 
-.title {
-    font-size: 40px; 
+  .title {
+    font-size: 40px;
+  }
 }
